@@ -14,8 +14,8 @@ public class MainApp {
 
         ApplicationContext context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
-        CommentService commentService = context.getBean(CommentService.class);
-        commentService.publishComment(comment);
+//        CommentService commentService = context.getBean(CommentService.class);
+//        commentService.publishComment(comment);
 
 
         CommentService cs1 = context.getBean(CommentService.class);
